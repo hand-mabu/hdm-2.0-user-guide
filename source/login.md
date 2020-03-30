@@ -1,6 +1,6 @@
 ---
 title: 登录
-permalink: /plugin/
+permalink: /login/
 description: 登录 & 单点登录
 ---
 

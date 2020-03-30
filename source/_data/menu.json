@@ -4,6 +4,7 @@
 }, {
     "code": "userGuide",
     "path": "userGuide/",
+    "clickable": true,
     "children": [{
         "code": "overview",
         "path": "overview/"
