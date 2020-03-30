@@ -13,3 +13,7 @@ nav:
   odi: ODI管理
   task: 任务台
   workflow: 工作流
+  sysTable: 常见系统表创建
+  deploy: 部署配置
+  problem: 常见问题
+  test: 安全性测试

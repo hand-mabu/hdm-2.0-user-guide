@@ -33,4 +33,16 @@
         "code": "workflow",
         "path": "workflow/"
     }]
+}, {
+    "code": "deploy",
+    "path": ""
+}, {
+    "code": "sysTable",
+    "path": ""
+}, {
+    "code": "problem",
+    "path": ""
+}, {
+    "code": "test",
+    "path": ""
 }]
