@@ -1,5 +1,6 @@
 <%
     var hasChild = item.children && item.children.length || item.disabled;
+    var clickable = item.clickable || false;
 
     function navItem_url(menuItem){
         return url_for(menuItem.path);
@@ -12,7 +13,7 @@
 %>
 
 <li class="nav-item<%- isCurrent(item) ? ' active' : '' %>" style="<%- item.hidden ? 'display: none;' : '' %>">
-    <a href="<%- hasChild ? 'javascript:void(0);'  : navItem_url(item) %>">
+    <a href="<%- hasChild && !clickable ? 'javascript:void(0);'  : navItem_url(item) %>">
         <%- __('nav.' + item.code) %>
     </a>
 </li>
