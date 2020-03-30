@@ -2,29 +2,34 @@
     "code": "start",
     "path": ""
 }, {
-    "code": "config",
-    "path": "config/"
-}, {
-    "code": "expert",
-    "path": "expert/"
-}, {
-    "code": "other",
-    "path": "other/",
+    "code": "userGuide",
+    "path": "userGuide/",
     "children": [{
-        "code": "service",
-        "path": "service/"
+        "code": "overview",
+        "path": "overview/"
     }, {
-        "code": "plugin",
-        "path": "plugin/"
+        "code": "login",
+        "path": "login/"
+    }, {
+        "code": "worktable",
+        "path": "worktable/"
+    }, {
+        "code": "sys",
+        "path": "sys/"
+    }, {
+        "code": "dimension",
+        "path": "dimension/"
+    }, {
+        "code": "datacore",
+        "path": "datacore/"
+    }, {
+        "code": "odi",
+        "path": "odi/"
+    }, {
+        "code": "task",
+        "path": "task/"
+    }, {
+        "code": "workflow",
+        "path": "workflow/"
     }]
-}, {
-    "code": "compose",
-    "path": "compose/"
-}, {
-    "code": "pages",
-    "path": "pages/"
-}, {
-    "code": "dev",
-    "path": "dev/",
-    "hidden": true
 }]

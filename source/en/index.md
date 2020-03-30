@@ -1,142 +1,79 @@
 ---
-title: Start
-description: Hello, welcome to「Suka」!
+title: 开始使用MabuDoc
+description: MabuDoc的安装和应用
 ---
 
-Hexo is a static site generator which is based on [Node.js](https://nodejs.org). You can learn how to install Hexo and generate your own website or blog at [Hexo's Official Documents](https://hexo.io/docs).
+MabuDoc 是基于 [Hexo](https://hexo.io/zh-cn/docs/) 和 [Node](https://nodejs.org/) 构成的高效静态站点框架。你可以在 [Hexo 的官方文档](https://hexo.io/zh-cn/docs/) 了解如何安装 Hexo、生成一个站点。
 
-> In this documentation, we suppose you have already successfully installed hexo and finished `hexo init` to set up a site.
+> 在这篇文档中，我们假定你已经成功安装了 Node 和 Hexo，**并使用 Hexo 提供的命令创建了一个站点。**
 
-There are two configuration files in Hexo Project, one in the root directory of your Hexo Project and the other in the theme directory. For the convenience of description, the former is referred to as `site config` and the latter as `theme config`.
+在 Hexo 中，通常有两份配置文件，一个是站点根目录下的 `_config.yml`；另外一个是主题目录下的 `_config.yml`。 为了描述方便，在以下说明中，将前者称为 `站点配置文件`，后者称为 `主题配置文件`。
 
-Before using "Suka" theme, please read [Hexo's Official Documents](https://hexo.io/docs) carefully and configure the basic configuration, such as title, subtitle, description, author, timezone, language etc.
+在使用「MabuDoc」主题之前，请仔细阅读 [Hexo 的官方文档](https://hexo.io/zh-cn/docs/)，完成对 Hexo 的安装，并完成对 `站点配置文件` 的基本配置（标题、介绍、作者、时区、语言等）。
 
-# Download desired versions
+# 下载「MabuDoc」
 
-[Download latest Release](https://github.com/SukkaW/hexo-theme-suka/releases/latest)
+[下载最新 Release 版本](https://github.com/hand-mabu/hexo-mabu-doc/releases/)
 
-> The latest release. Recommended for most users.
+> 最新的释出版本，适合大部分用户。
 
-[Download latest Canary Branch](https://github.com/SukkaW/hexo-theme-suka/archive/canary.zip)
+选择你所需要的版本，在新打开的页面中找到 Assets 区域，下载 Source Code (zip) 到本地。
+以下载 1.0.0 版本为例
 
-> This build may be unstable, but it includes the latest features. Recommended for developers and advanced users.
-
-[Download other version](https://github.com/SukkaW/hexo-theme-suka/releases)
-
-> You can decide which version to use. Some releases are no longer supported.
-
-Choose the version you want to deploy, expand `Assets` tab in releases page, and download Source Code (zip).
-Here is an example of downloading version 0.2.0:
-
-![](/docs/assets/img/download-suka.png)
-
-Unpack it and rename it to `suka`, and then move it to `themes` directory of your Hexo Project.
+解压所下载的压缩包至个人目录下， 并将 解压后的文件夹名称 更改为 `mabuDoc`（推荐）。
 
 ----
 
-[Using Git](https://github.com/SukkaW/hexo-theme-suka)
+[使用 Git](https://github.com/hand-mabu/hexo-mabu-doc)
 
-With git you can decide which version and branch you want to use. You can use `git pull` to update the theme if you goes this way.
+> 你可以自己决定想要使用的分支；使用 Git 下载「MabuDoc」以后还可以使用 `git pull` 更新「MabuDoc」。
 
 ```bash
-cd themes
-git clone https://github.com/SukkaW/hexo-theme-suka.git suka
-cd suka
+git clone -b dev https://github.com/hand-mabu/hexo-mabu-doc.git mabuDoc
+cd mabuDoc
 git checkout {branch/tags name/commit hash}
 ```
 
-# Install "Suka"
+# 安装「MabuDoc」
 
-When installing "Suka" you need extra steps which is diffrent from other themes. First you need to enter themes directory and install dependencies for "Suka".
-
-```bash
-cd themes/suka
-npm install --production
-```
-
-Then you need to make a copy of `_config.example.yml` and rename it to `_config.yml`.
+和其他主题不同，安装「MabuDoc」需要额外的步骤；前往「MabuDoc」主题目录下执行 `npm install` 指令安装「MabuDoc」运行时所必须的依赖。
 
 ```bash
-cp -i _config.example.yml _config.yml
+cd mabuDoc
+npm install
 ```
 
-With the theme being developed, the theme config template will change. By copying the config you can avoid potential conflicts for users who use git pull to upgrade the theme.
-
-> If you are using git for your Hexo Project or you are using CI to generate and deploy your site, please read [Advanced Setting - CI] for more details.
-
-Now go back to the root directory of your Hexo Project, then execute:
-
-```bash
-cat themes/suka/site_config.yml >> _config.yml
-```
-
-Now your `site config` should look like:
+目前你的 `站点配置文件` 应该是这样：
 
 ```yaml
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
-
-# Suka Theme config
-# Documents: https://theme-suka.skk.moe/docs/
-suka_theme:
-  search:
-    enable: false
-    path: search.json
-    field: post # Page | Post | All. Default post
-  prism:
-    enable: false
-    line_number: true
-    theme: default
+theme: mabuDoc
 ```
 
-# Enable "Suka"
+# 运行「MabuDoc」
 
-Change `theme` key's value to `suka`.
-
-```diff
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
--theme: landscape
-+theme: suka
-
-# Suka Theme config
-# Documents: https://theme-suka.skk.moe/docs/
-suka_theme:
-  search:
-    path: search.json
-    field: post # Page | Post | All. Default post
-  prism:
-    line_number: true
-    theme: default
-```
-
-# Start "Suka"
-
-Run the command below to start a local Hexo Server.
+在站点根目录下运行下面的命令在本地启动一个 Hexo Server。
 
 ```bash
-hexo s --debug
+hexo s
 ```
 
-> During the service startup process, pay attention any abnormal outputs. If you want to report issues, those information will help.
+> 在服务启动的过程，注意观察命令行输出是否有任何异常信息，如果你碰到问题，这些信息将帮助他人更好的定位错误。
 
-When the output looks like the lines below
+当命令行输出下述内容时说明 Hexo 已经监听在本机的 4000 端口，使用浏览器访问 http://localhost:4000 ，检查站点是否正确运行。
 
 ```
 INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
 ```
 
-It means Hexo is already running on your device, check https://localhost:400 in your browser.
+> 如果你在使用过程中遇到问题，请尝试在文档左侧菜单中进行搜索，或者在 GitHub 上 [提出 issue](https://github.com/hand-mabu/hexo-mabu-doc/issues)
 
-> If you have any problem using "Suka", try searching in the documentation at sidebar or [open new issue](https://github.com/SukkaW/hexo-theme-suka/issues/new) at GitHub.
+# 更新「MabuDoc」
 
-# Update "Suka"
+如果你是在 版本发布页 下载并安装的「MabuDoc」，那么你需要备份你的 `站点配置文件` `主题配置文件` `source文件夹` ，然后将旧的主题文件夹命名为 `mabuDoc-old`，将下载的新版本「MabuDoc」重命名为 `mabuDoc`，根据更新日志的指导迁移旧的 `站点配置文件` `主题配置文件` `source文件夹` 到新的 `站点配置文件` `主题配置文件` `source文件夹` 中。测试通过后你可以将 `mabuDoc-old` 删除。
 
-If you downloaded "Suka" from a  GitHub release, you should rename your theme directory from `suka` to `suka-old`, and rename the newer version of "Suka" directory to `suka`. Then follow the guide at changelog to migrate your configuration to the newer version. You can delete `suka-old` directory afterwards if you want.
+----
 
----
-
-If you use git to download "Suka", you need to backup your `theme config` (for example, rename it to `_config.old.yml`), and then run `git pull` to update "Suka". You will see a new `_config.example.yml`. Make a copy of it and rename it as `_config.yml`. Now you can migrate your settings from `_config.old.yml` to `_config.yml`. After the test you can delete `_config.old.yml`.
+如果你使用 Git 安装的「MabuDoc」，你可以直接在主题文件夹下运行 `git pull` 更新主题，并把备份之前的 `站点配置文件` `主题配置文件` 都重命名为 `_config.old.yml`。从 `_config.old.yml` 迁移你的配置到新的 `_config.yml`测试通过后你可以将 `_config.old.yml` 删除。

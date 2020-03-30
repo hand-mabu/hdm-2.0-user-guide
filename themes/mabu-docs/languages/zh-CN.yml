@@ -3,11 +3,13 @@ toc: 目录
 top: 回到顶部
 nav:
   start: 开始使用
-  config: 主题配置
-  other: 其他
-  service: 第三方服务
-  plugin: 内置插件
-  expert: 进阶使用
-  compose: 开始创作
-  pages: 独立页面
-  dev: 开发指南
+  userGuide: 用户手册
+  overview: 概述
+  login: 登录
+  worktable: 工作台
+  sys: 系统管理
+  dimension: 维度管理
+  datacore: 数据采集
+  odi: ODI管理
+  task: 任务台
+  workflow: 工作流

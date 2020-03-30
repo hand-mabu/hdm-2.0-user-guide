@@ -2,11 +2,14 @@ github: Edit on GitHub
 toc: TOC
 top: Back to Top
 nav:
-  start: Start
-  config: Theme Config
-  service: Third Party Service
-  plugin: Built in Plugin
-  expert: Advanced Using
-  compose: Compose
-  pages: Pages
-  dev: Devlopment Guide
+  start: 开始使用
+  userGuide: 用户手册
+  overview: 概述
+  login: 登录
+  worktable: 工作台
+  sys: 系统管理
+  dimension: 维度管理
+  datacore: 数据采集
+  odi: ODI管理
+  task: 任务台
+  workflow: 工作流
