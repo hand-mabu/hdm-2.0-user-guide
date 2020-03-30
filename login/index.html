@@ -2,7 +2,7 @@
 <html>
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-    <title>Compose | MabuDoc Theme</title>
+    <title>登录 | MabuDoc Theme</title>
     <meta http-equiv="x-dns-prefetch-control" content="on">
     <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
     <meta name="description" content="Modern, powerful and simple theme for Hexo.">
@@ -38,7 +38,7 @@
         </section>
         <section class="navbar-section">
             
-            <a href="/hdm-2.0-user-guide/en/compose/" class="btn btn-link navbar-link">简体中文</a>
+            <a href="/hdm-2.0-user-guide/login/" class="btn btn-link navbar-link">English</a>
             
         </section>
     </div>
@@ -59,61 +59,73 @@
 
 <li class="nav-item" style>
     <a href="/hdm-2.0-user-guide/">
-        Start
+        开始使用
     </a>
 </li>
 
 <li class="nav-item" style>
-    <a href="/hdm-2.0-user-guide/config/">
-        Theme Config
-    </a>
-</li>
-
-<li class="nav-item" style>
-    <a href="/hdm-2.0-user-guide/expert/">
-        Advanced Using
-    </a>
-</li>
-
-<li class="nav-item" style>
-    <a href="javascript:void(0);">
-        其他
+    <a href="/hdm-2.0-user-guide/userGuide/">
+        用户手册
     </a>
 </li><ul class="nav">
 
 <li class="nav-item" style>
-    <a href="/hdm-2.0-user-guide/service/">
-        Third Party Service
+    <a href="/hdm-2.0-user-guide/overview/">
+        概述
+    </a>
+</li>
+
+<li class="nav-item active" style>
+    <a href="/hdm-2.0-user-guide/login/">
+        登录
     </a>
 </li>
 
 <li class="nav-item" style>
-    <a href="/hdm-2.0-user-guide/plugin/">
-        Built in Plugin
-    </a>
-</li></ul>
-
-<li class="nav-item" style>
-    <a href="/hdm-2.0-user-guide/compose/">
-        Compose
+    <a href="/hdm-2.0-user-guide/worktable/">
+        工作台
     </a>
 </li>
 
 <li class="nav-item" style>
-    <a href="/hdm-2.0-user-guide/pages/">
-        Pages
+    <a href="/hdm-2.0-user-guide/sys/">
+        系统管理
     </a>
 </li>
 
-<li class="nav-item" style="display: none;">
-    <a href="/hdm-2.0-user-guide/dev/">
-        Devlopment Guide
+<li class="nav-item" style>
+    <a href="/hdm-2.0-user-guide/dimension/">
+        维度管理
     </a>
-</li></ul>
+</li>
+
+<li class="nav-item" style>
+    <a href="/hdm-2.0-user-guide/datacore/">
+        数据采集
+    </a>
+</li>
+
+<li class="nav-item" style>
+    <a href="/hdm-2.0-user-guide/odi/">
+        ODI管理
+    </a>
+</li>
+
+<li class="nav-item" style>
+    <a href="/hdm-2.0-user-guide/task/">
+        任务台
+    </a>
+</li>
+
+<li class="nav-item" style>
+    <a href="/hdm-2.0-user-guide/workflow/">
+        工作流
+    </a>
+</li></ul></ul>
     <!-- <ul class="nav"> -->
     <!-- 
         <li class="nav-item">
-            <a href="/hdm-2.0-user-guide/en/config/">Theme Config</a>
+            <a href="/hdm-2.0-user-guide/config/">nav.config</a>
         </li>
     -->
     <!-- </ul> -->
@@ -132,11 +144,13 @@
 <div class="docs-header">
     <div class="docs-header-wrapper">
         <div class="title-wrapper">
-            <h1 class="docs-header-title mb-1">Compose</h1>
+            <h1 class="docs-header-title mb-1">登录</h1>
+            
+                <p class="h4 mb-2">登录 & 单点登录</p>
             
         </div>
         <!-- <span class="label label-rounded bg-dark mt-2">
-            <a class="docs-github" href="https://github.com/theme-suka/docs/tree/master/source/en/compose.md" target="_blank">Edit on GitHub</a>
+            <a class="docs-github" href="https://github.com/theme-suka/docs/tree/master/source/login.md" target="_blank">在 GitHub 上编辑</a>
         </span> -->
     </div>
 </div>
@@ -146,41 +160,7 @@
         <div class="column col-9 col-lg-12 docs-content-section">
             <div class="container px-0">
                 <div id="post-content">
-                    <h1 id="Add-new-post"><a href="#Add-new-post" class="headerlink" title="Add new post"></a>Add new post</h1><h2 id="Use-terminal-and-shell"><a href="#Use-terminal-and-shell" class="headerlink" title="Use terminal and shell"></a>Use terminal and shell</h2><pre class=" highlight language-bash"><code class="language-bash">hexo new <span class="token operator">&lt;</span>title<span class="token operator">></span>
-</code></pre>
-<h2 id="Manually"><a href="#Manually" class="headerlink" title="Manually"></a>Manually</h2><p>Add a markdown file (<code>.md</code>) in <code>source/_posts</code> folder of your hexo project.</p>
-<h1 id="Front-Matter"><a href="#Front-Matter" class="headerlink" title="Front-Matter"></a>Front-Matter</h1><p><a href="https://hexo.io/zh-cn/docs/front-matter.html" target="_blank" rel="noopener">Hexo Documents - Front-Matter</a></p>
-<p>“Suka” not only support the option in hexo documents mentioned above, bus also support those extended front-matter below:</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Name</th>
-<th style="text-align:left">Description</th>
-<th style="text-align:left">Default Valu</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><code>thumbnail</code></td>
-<td style="text-align:left">The thumbnail url for post</td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left"><code>toc</code></td>
-<td style="text-align:left">Show TOC or not</td>
-<td style="text-align:left">true</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>busuanzi_offset</code></td>
-<td style="text-align:left">Busuanzi Offset for current page</td>
-<td style="text-align:left">0</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>license</code></td>
-<td style="text-align:left">Override the configuration in theme config for current page</td>
-</tr>
-</tbody>
-</table>
+                    <h1 id="登录"><a href="#登录" class="headerlink" title="登录"></a>登录</h1><p>this is login</p>
 
                 </div>
             </div>
@@ -189,8 +169,8 @@
             <div class="container px-0">
                 <div id="post-toc">
                     
-                        <p class="h4 text-bold">TOC</p>
-                        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Add-new-post"><span class="post-toc-text">Add new post</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Use-terminal-and-shell"><span class="post-toc-text">Use terminal and shell</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Manually"><span class="post-toc-text">Manually</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Front-Matter"><span class="post-toc-text">Front-Matter</span></a></li></ol>
+                        <p class="h4 text-bold">目录</p>
+                        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#登录"><span class="post-toc-text">登录</span></a></li></ol>
                     
                 </div>
             </div>
