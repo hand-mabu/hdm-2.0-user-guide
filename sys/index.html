@@ -184,8 +184,24 @@
         <div class="column col-9 col-lg-12 docs-content-section">
             <div class="container px-0">
                 <div id="post-content">
-                    <h1 id="系统管理"><a href="#系统管理" class="headerlink" title="系统管理"></a>系统管理</h1><p>this is sys</p>
-
+                    <h1 id="租户管理-平台"><a href="#租户管理-平台" class="headerlink" title="租户管理(平台)"></a>租户管理(平台)</h1><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>&emsp;&emsp;<code>HDM</code>是在<code>HZero</code>的基础上进行的开发，继承了<code>HZero</code>的<code>SASS</code>、<code>OP</code>属性。故<code>HDM</code>也拥有平台和租户的概念，一些功能的控制层在平台层，租户层可以狭义理解为原<code>HDM</code>的应用，他可以承担应用的角色，甚至更多，提供数据隔离，接口隔离等。平台作为总体集团监管和控制所有的租户，所以我们在实际生产中，所有的操作都是在租户层面做的，平台只起到监管作用。以下列举<code>HDM</code>中会使用到的功能做介绍，其余功能不建议放出，如若有使用需求，请移步<code>HZero</code>官网文档参考。</p>
+<h2 id="租户维护"><a href="#租户维护" class="headerlink" title="租户维护"></a>租户维护</h2><blockquote>
+<p>入口: 系统管理-租户管理-租户维护</p>
+</blockquote>
+<p>&emsp;&emsp;点击右上角新建，填入编码名称后即可新建一个租户。</p>
+<h1 id="角色管理"><a href="#角色管理" class="headerlink" title="角色管理"></a>角色管理</h1><h2 id="概述-1"><a href="#概述-1" class="headerlink" title="概述"></a>概述</h2><p>&emsp;&emsp;角色是<code>HDM</code>中用来控制菜单和卡片权限的功能，现HDM提供角色继承的功能，即可快速完成大批量角色创建。</p>
+<h2 id="角色创建-amp-初始化"><a href="#角色创建-amp-初始化" class="headerlink" title="角色创建&amp;初始化"></a>角色创建&amp;初始化</h2><blockquote>
+<p>入口: 系统管理-角色管理-角色管理</p>
+</blockquote>
+<p>&emsp;&emsp;一般情况下，我们需要创建的角色都是属于某个租户的，我们可以在当前租户下创建角色，也可以在平台下创建，如图是在平台下创建角色。角色只能在对应的管理员下创建，<code>HDM</code>提供复制、继承等功能。</p>
+<p><img src="./imgs/sys/sys_role.png" alt="sys_role"></p>
+<pre><code>复制: 复制一个权限一样的角色。
+继承: 继承选定的角色权限。
+分配用户: 将角色分配给选定的用户。
+分配客户端: 一般项目不涉及客户端操作，无须分配，只有涉及客制化多客户端开发才需要。
+工作台配置: 在卡片管理维护卡片后，可以在配置处维护卡片，以便用户在工作台快捷进入某些功能或作为预览。
+维护数据权限: 同分配客户端。
+</code></pre>
                 </div>
             </div>
         </div>
@@ -194,7 +210,7 @@
                 <div id="post-toc">
                     
                         <p class="h4 text-bold">目录</p>
-                        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#系统管理"><span class="post-toc-text">系统管理</span></a></li></ol>
+                        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#租户管理-平台"><span class="post-toc-text">租户管理(平台)</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#概述"><span class="post-toc-text">概述</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#租户维护"><span class="post-toc-text">租户维护</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#角色管理"><span class="post-toc-text">角色管理</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#概述-1"><span class="post-toc-text">概述</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#角色创建-amp-初始化"><span class="post-toc-text">角色创建&amp;初始化</span></a></li></ol></li></ol>
                     
                 </div>
             </div>

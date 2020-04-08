@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//sys/index.html</loc>
+    
+    <lastmod>2020-04-08T08:45:02.677Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//login/index.html</loc>
+    
+    <lastmod>2020-04-08T08:42:01.171Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//worktable/index.html</loc>
+    
+    <lastmod>2020-04-08T08:42:01.167Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//overview/index.html</loc>
     
     <lastmod>2020-04-08T07:36:55.621Z</lastmod>
@@ -37,13 +58,6 @@
   </url>
   
   <url>
-    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//login/index.html</loc>
-    
-    <lastmod>2020-03-30T02:56:58.733Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//datacore/index.html</loc>
     
     <lastmod>2020-03-30T02:55:20.408Z</lastmod>
@@ -54,20 +68,6 @@
     <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//dimension/index.html</loc>
     
     <lastmod>2020-03-30T02:54:30.153Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//sys/index.html</loc>
-    
-    <lastmod>2020-03-30T02:53:14.534Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//worktable/index.html</loc>
-    
-    <lastmod>2020-03-30T02:50:25.632Z</lastmod>
     
   </url>
   
@@ -86,63 +86,63 @@
   </url>
   
   <url>
-    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//plugin/index.html</loc>
-    
-    <lastmod>2020-03-17T08:11:38.688Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//plugin/index.html</loc>
-    
-    <lastmod>2020-03-17T08:11:38.688Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//plugin/index.html</loc>
-    
-    <lastmod>2020-03-17T08:11:38.688Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//plugin/index.html</loc>
-    
-    <lastmod>2020-03-17T08:11:38.688Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//plugin/index.html</loc>
-    
-    <lastmod>2020-03-17T08:11:38.688Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//plugin/index.html</loc>
-    
-    <lastmod>2020-03-17T08:11:38.688Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//plugin/index.html</loc>
-    
-    <lastmod>2020-03-17T08:11:38.688Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//plugin/index.html</loc>
-    
-    <lastmod>2020-03-17T08:11:38.688Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//service/index.html</loc>
+    
+    <lastmod>2020-03-17T08:11:38.688Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//plugin/index.html</loc>
+    
+    <lastmod>2020-03-17T08:11:38.688Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//plugin/index.html</loc>
+    
+    <lastmod>2020-03-17T08:11:38.688Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//plugin/index.html</loc>
+    
+    <lastmod>2020-03-17T08:11:38.688Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//plugin/index.html</loc>
+    
+    <lastmod>2020-03-17T08:11:38.688Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//plugin/index.html</loc>
+    
+    <lastmod>2020-03-17T08:11:38.688Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//plugin/index.html</loc>
+    
+    <lastmod>2020-03-17T08:11:38.688Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//plugin/index.html</loc>
+    
+    <lastmod>2020-03-17T08:11:38.688Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//plugin/index.html</loc>
     
     <lastmod>2020-03-17T08:11:38.688Z</lastmod>
     
