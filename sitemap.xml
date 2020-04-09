@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//datacore/index.html</loc>
+    
+    <lastmod>2020-04-09T07:54:28.824Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//dimension/index.html</loc>
     
     <lastmod>2020-04-08T09:50:09.414Z</lastmod>
@@ -65,13 +72,6 @@
   </url>
   
   <url>
-    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//datacore/index.html</loc>
-    
-    <lastmod>2020-03-30T02:55:20.408Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//userGuide/index.html</loc>
     
     <lastmod>2020-03-30T02:47:25.641Z</lastmod>
@@ -79,14 +79,14 @@
   </url>
   
   <url>
-    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//service/index.html</loc>
+    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//plugin/index.html</loc>
     
     <lastmod>2020-03-17T08:11:38.688Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//plugin/index.html</loc>
+    <loc>https://hand-mabu.github.io/hdm-2.0-user-guide//service/index.html</loc>
     
     <lastmod>2020-03-17T08:11:38.688Z</lastmod>
     
