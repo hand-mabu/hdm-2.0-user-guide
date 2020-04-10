@@ -247,6 +247,32 @@
     1. 新建: 拥有新建权限
     2. 删除: 拥有删除、全部删除权限
 </code></pre><h1 id="程序管理"><a href="#程序管理" class="headerlink" title="程序管理"></a>程序管理</h1><h2 id="概述-2"><a href="#概述-2" class="headerlink" title="概述"></a>概述</h2><p>&emsp;&emsp;该目录下提供了计算程序配置、<code>SQL</code>校验。系统模板中使用的程序均由此配置。其中计算程序可以配置直接执行，拥有权限的用户可以直接在页面执行。</p>
+<h2 id="计算程序配置"><a href="#计算程序配置" class="headerlink" title="计算程序配置"></a>计算程序配置</h2><blockquote>
+<p>入口: 数据采集-程序管理-计算程序配置</p>
+</blockquote>
+<p>&emsp;&emsp;新建前需要先在对应数据源中提供好对应的计算程序，准备好后方可创建。关于系统计算程序的创建请参考常见系统表创建。</p>
+<p><img src="../imgs/datacore/datacore_calc_setting.png" alt="datacore_calc_setting"></p>
+<pre><code>名称: 计算程序前端显示的名称。
+数据源: 计算程序所在的数据源。
+编码: 数据库中计算程序的编码。
+描述: 对计算程序的描述。
+序号: 计算程序展示顺序。
+单独运行: 是/否。选择否的话即可在模板处选择。
+</code></pre><h2 id="计算程序运行"><a href="#计算程序运行" class="headerlink" title="计算程序运行"></a>计算程序运行</h2><blockquote>
+<p>入口: 数据采集-程序管理-计算程序运行</p>
+</blockquote>
+<p>&emsp;&emsp;选择可以直接运行且拥有权限的计算程序运行。</p>
+<p><img src="../imgs/datacore/datacore_calc_run.png" alt="datacore_calc_run"></p>
+<h2 id="计算程序权限"><a href="#计算程序权限" class="headerlink" title="计算程序权限"></a>计算程序权限</h2><blockquote>
+<p>入口: 数据采集-程序管理-计算程序权限</p>
+</blockquote>
+<p>&emsp;&emsp;权限分配和其他权限类似。这里是直接授权，即拥有执行和查看权限。值得一提的是，如果用户未拥有此计算程序权限，但是此计算程序被配置在模板中且为保存后即运行，那么该用户操作模板的时候，也会执行该计算程序。</p>
+<p><img src="../imgs/datacore/datacore_calc_premission.png" alt="datacore_calc_premission"></p>
+<h2 id="SQL校验"><a href="#SQL校验" class="headerlink" title="SQL校验"></a>SQL校验</h2><blockquote>
+<p>入口: 数据采集-程序管理-<code>SQL</code>校验</p>
+</blockquote>
+<p>&emsp;&emsp;新建前需要先在对应数据源中提供好对应的<code>SQL</code>校验，准备好后方可创建。关于系统<code>SQL</code>校验的创建请参考常见系统表创建。</p>
+<p><img src="../imgs/datacore/datacore_sql_setting.png" alt="datacore_sql_setting"></p>
 
                 </div>
             </div>
@@ -256,7 +282,7 @@
                 <div id="post-toc">
                     
                         <p class="h4 text-bold">目录</p>
-                        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#数据录入"><span class="post-toc-text">数据录入</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#概述"><span class="post-toc-text">概述</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#单模板录入"><span class="post-toc-text">单模板录入</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#多模板录入"><span class="post-toc-text">多模板录入</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#模板管理"><span class="post-toc-text">模板管理</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#概述-1"><span class="post-toc-text">概述</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#模板目录"><span class="post-toc-text">模板目录</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#模板定义"><span class="post-toc-text">模板定义</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#普通模板"><span class="post-toc-text">普通模板</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#固定模板"><span class="post-toc-text">固定模板</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#模板权限"><span class="post-toc-text">模板权限</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#程序管理"><span class="post-toc-text">程序管理</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#概述-2"><span class="post-toc-text">概述</span></a></li></ol></li></ol>
+                        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#数据录入"><span class="post-toc-text">数据录入</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#概述"><span class="post-toc-text">概述</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#单模板录入"><span class="post-toc-text">单模板录入</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#多模板录入"><span class="post-toc-text">多模板录入</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#模板管理"><span class="post-toc-text">模板管理</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#概述-1"><span class="post-toc-text">概述</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#模板目录"><span class="post-toc-text">模板目录</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#模板定义"><span class="post-toc-text">模板定义</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#普通模板"><span class="post-toc-text">普通模板</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#固定模板"><span class="post-toc-text">固定模板</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#模板权限"><span class="post-toc-text">模板权限</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#程序管理"><span class="post-toc-text">程序管理</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#概述-2"><span class="post-toc-text">概述</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#计算程序配置"><span class="post-toc-text">计算程序配置</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#计算程序运行"><span class="post-toc-text">计算程序运行</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#计算程序权限"><span class="post-toc-text">计算程序权限</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#SQL校验"><span class="post-toc-text">SQL校验</span></a></li></ol></li></ol>
                     
                 </div>
             </div>
